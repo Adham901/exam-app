@@ -7,7 +7,7 @@ import { useEffect } from "react";
 export default function Home() {
   const router = useRouter();
 
-  // ⏳ بعد 2.5 ثانية نودّي المستخدم للـ login
+ 
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push("/auth/login");
@@ -23,7 +23,7 @@ export default function Home() {
         transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
         className="text-5xl font-extrabold tracking-widest text-blue-800"
       >
-        ELEVATE
+        EXAM-APP
       </motion.h1>
     </div>
   );
