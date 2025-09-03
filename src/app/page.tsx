@@ -23,7 +23,7 @@ export default function Home() {
         transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
         className="text-5xl font-extrabold tracking-widest text-blue-800"
       >
-        EXAM-APP
+        EXAM APP
       </motion.h1>
     </div>
   );
