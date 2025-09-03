@@ -142,12 +142,10 @@ export default function ResultsPage() {
 
         {/* Buttons */}
         <div className="flex justify-between">
-          <Button variant="outline" onClick={() => window.history.back()}>
+          <Button  variant="outline" onClick={() => window.history.back()}>
             Restart
           </Button>
-          <Button onClick={() => (window.location.href = "/projects/exams")}>
-            Explore
-          </Button>
+       
         </div>
       </div>
     </div>
